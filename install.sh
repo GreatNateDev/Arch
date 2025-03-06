@@ -5,6 +5,7 @@ cd ..
 rm -rf yay-bin
 yay -S librewolf-bin --noconfirm
 yay -S github-desktop-bin --noconfirm
+yay -S  ttf-firacode-nerd --noconfirm
 sudo cp -R config/* ~/.config/
 sudo pacman -R ark --noconfirm
 sudo cp -R etc/* /etc/
