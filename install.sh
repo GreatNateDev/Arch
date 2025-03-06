@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -S wl-clipboard git base-devel fzf npm go --noconfirm
+sudo pacman -S wl-clipboard git base-devel fzf npm go godot --noconfirm
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
 cd ..
 rm -rf yay-bin
