@@ -7,7 +7,7 @@ yay -S librewolf-bin --noconfirm
 yay -S github-desktop-bin --noconfirm
 yay -S  ttf-firacode-nerd --noconfirm
 sudo cp -R config/* ~/.config/
-sudo pacman -R ark --noconfirm
+sudo pacman -S iwd dialog networkmanager-openconnect nm-connection-editor network-manager-applet networkmanager kwallet kwalletmanager --noconfirm 
 sudo cp -R etc/* /etc/
 cd /usr/share/applications
 sudo rm avahi-discover.desktop assistant.desktop bssh.desktop bvnc.desktop designer.desktop google-maps-geo-handler.desktop
